@@ -1,27 +1,22 @@
-= ytterb
+ytterb 
+======
 
-* {Homepage}[https://rubygems.org/gems/ytterb]
-* {Documentation}[http://rubydoc.info/gems/ytterb/frames]
-* {Email}[mailto:thext at outlook.com]
+* [HomePage][https://rubygems.org/gems/ytterb]
+* [Documentation][http://rubydoc.info/gems/ytterb/frames]
+* [Email][mailto:thext at outlook.com]
 
-== Description
+Description
+-----------
 
 TODO: Description
 
-== Features
-
-== Examples
-
-  require 'ytterb'
-
-== Requirements
-
-== Install
+Install
+-------
 
   $ gem install ytterb
 
-== Copyright
+Copyright
+---------
 
 Copyright (c) 2014 thext
-
 See LICENSE.txt for details.
