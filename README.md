@@ -1,9 +1,10 @@
 ytterb 
 ======
+[![Gem Version](https://badge.fury.io/rb/ytterb.svg)](http://badge.fury.io/rb/ytterb)
 
-* [HomePage][https://rubygems.org/gems/ytterb]
-* [Documentation][http://rubydoc.info/gems/ytterb/frames]
-* [Email][mailto:thext at outlook.com]
+* (HomePage)[https://rubygems.org/gems/ytterb]
+* (Documentation)[http://rubydoc.info/gems/ytterb/frames]
+* (Email)[mailto:thext at outlook.com]
 
 Description
 -----------
