@@ -16,7 +16,7 @@ module Ytterb
 
     def run_select_query(query)
       RestClient.get("#{get_yql_endpoint}?q=#{CGI::escape(query)}&format=json&env=store://datatables.org/alltableswithkeys") do |response, request, result|
-        raise "Failed perforing YQLQuery\n Request: #{request.inspect}\n Response #{response.inspect}" unless response.code == 200
+        raise "Failed performing YQLQuery\n Request: #{request.inspect}\n Response #{response.inspect}" unless response.code == 200
         return JSON.parse(response)
       end
     end
