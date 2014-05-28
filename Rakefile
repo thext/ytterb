@@ -34,3 +34,8 @@ RSpec::Core::RakeTask.new
 
 task :test    => :spec
 task :default => :spec
+
+task :build_stock_cache do 
+  require_relative 'lib/ytterb'
+  Ytterb::StockSymbolCacheBuilder.new
+end
