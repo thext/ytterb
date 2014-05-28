@@ -1,10 +1,14 @@
 # -*- encoding: utf-8 -*-
 
+require 'date'
 require File.expand_path('../lib/ytterb/version', __FILE__)
+
+t = Time.now
+minor_rev = t.hour * 3600 + t.min * 60 + t.sec
 
 Gem::Specification.new do |gem|
   gem.name          = "ytterb"
-  gem.version       = Ytterb::VERSION
+  gem.version       = "#{Ytterb::VERSION}.#{Date.today.yday}.#{minor_rev}"
   gem.summary       = %q{ytterb finance data gen}
   gem.description   = %q{pulls financial data data via yahoo's YQL apis}
   gem.license       = "MIT"
