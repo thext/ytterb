@@ -7,7 +7,7 @@ module Ytterb
       @options = {}
       options.reject {|k,v| !k }.each do |k,v|
         sym_k = k.gsub(/\s+/,"_").downcase.to_sym
-        @options[sym_k] = v
+        @options[sym_k] = v.strip
       end
     end
 
