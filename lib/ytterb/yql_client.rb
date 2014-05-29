@@ -6,8 +6,9 @@ require 'date'
 module Ytterb
 
   class YQLClient
-    def intialize
+    def initialize
       @endpoint = "http://query.yahooapis.com/v1/public/yql"
+      puts "YQL Client is using endpoint @ #{@endpoint}"
     end
 
     def get_yql_endpoint
