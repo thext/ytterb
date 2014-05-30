@@ -4,7 +4,7 @@ require 'date'
 require File.expand_path('../lib/ytterb/version', __FILE__)
 
 t = Time.now
-minor_rev = t.hour * 3600 + t.min * 60 + t.sec
+minor_rev = "#{t.hour}#{t.min}#{t.sec}" 
 
 Gem::Specification.new do |gem|
   gem.name          = "ytterb"

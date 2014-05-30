@@ -7,7 +7,9 @@ module Ytterb
       @options = {}
       options.reject {|k,v| !k }.each do |k,v|
         sym_k = k.gsub(/\s+/,"_").downcase.to_sym
-        @options[sym_k] = v.strip
+        val = v.strip
+        val.gsub!(/\^/,"-") if sym_k == :symbol
+        @options[sym_k] = val
       end
     end
 
