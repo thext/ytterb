@@ -1,0 +1,2280 @@
+---
+:sync_to: '2014-05-29'
+:data:
+  '2013-09-26':
+    Symbol: WSBF
+    Date: '2013-09-26'
+    Open: '10.50'
+    High: '10.60'
+    Low: '10.13'
+    Close: '10.16'
+    Volume: '17600'
+    Adj_Close: '9.21'
+  '2013-09-25':
+    Symbol: WSBF
+    Date: '2013-09-25'
+    Open: '10.48'
+    High: '10.64'
+    Low: '10.43'
+    Close: '10.53'
+    Volume: '10000'
+    Adj_Close: '9.55'
+  '2013-09-24':
+    Symbol: WSBF
+    Date: '2013-09-24'
+    Open: '10.42'
+    High: '10.53'
+    Low: '10.37'
+    Close: '10.45'
+    Volume: '55800'
+    Adj_Close: '9.48'
+  '2013-09-23':
+    Symbol: WSBF
+    Date: '2013-09-23'
+    Open: '10.26'
+    High: '10.45'
+    Low: '10.25'
+    Close: '10.40'
+    Volume: '19500'
+    Adj_Close: '9.43'
+  '2013-09-20':
+    Symbol: WSBF
+    Date: '2013-09-20'
+    Open: '10.26'
+    High: '10.64'
+    Low: '10.23'
+    Close: '10.29'
+    Volume: '22200'
+    Adj_Close: '9.33'
+  '2013-09-19':
+    Symbol: WSBF
+    Date: '2013-09-19'
+    Open: '10.21'
+    High: '10.34'
+    Low: '10.08'
+    Close: '10.27'
+    Volume: '11100'
+    Adj_Close: '9.31'
+  '2013-09-18':
+    Symbol: WSBF
+    Date: '2013-09-18'
+    Open: '10.04'
+    High: '10.21'
+    Low: '10.03'
+    Close: '10.15'
+    Volume: '52900'
+    Adj_Close: '9.21'
+  '2013-09-17':
+    Symbol: WSBF
+    Date: '2013-09-17'
+    Open: '10.00'
+    High: '10.00'
+    Low: '9.98'
+    Close: '10.00'
+    Volume: '10800'
+    Adj_Close: '9.07'
+  '2013-09-16':
+    Symbol: WSBF
+    Date: '2013-09-16'
+    Open: '10.00'
+    High: '10.00'
+    Low: '9.89'
+    Close: '10.00'
+    Volume: '41400'
+    Adj_Close: '9.07'
+  '2013-09-13':
+    Symbol: WSBF
+    Date: '2013-09-13'
+    Open: '9.99'
+    High: '10.02'
+    Low: '9.98'
+    Close: '10.02'
+    Volume: '12800'
+    Adj_Close: '9.09'
+  '2013-09-12':
+    Symbol: WSBF
+    Date: '2013-09-12'
+    Open: '9.99'
+    High: '10.03'
+    Low: '9.95'
+    Close: '9.95'
+    Volume: '7400'
+    Adj_Close: '9.02'
+  '2013-09-11':
+    Symbol: WSBF
+    Date: '2013-09-11'
+    Open: '9.90'
+    High: '10.03'
+    Low: '9.90'
+    Close: '9.97'
+    Volume: '8700'
+    Adj_Close: '9.04'
+  '2013-09-10':
+    Symbol: WSBF
+    Date: '2013-09-10'
+    Open: '10.00'
+    High: '10.00'
+    Low: '9.95'
+    Close: '9.98'
+    Volume: '6200'
+    Adj_Close: '9.05'
+  '2013-09-09':
+    Symbol: WSBF
+    Date: '2013-09-09'
+    Open: '9.88'
+    High: '9.99'
+    Low: '9.88'
+    Close: '9.99'
+    Volume: '14900'
+    Adj_Close: '9.06'
+  '2013-09-06':
+    Symbol: WSBF
+    Date: '2013-09-06'
+    Open: '10.00'
+    High: '10.00'
+    Low: '9.82'
+    Close: '9.86'
+    Volume: '7700'
+    Adj_Close: '8.94'
+  '2013-09-05':
+    Symbol: WSBF
+    Date: '2013-09-05'
+    Open: '9.93'
+    High: '10.00'
+    Low: '9.93'
+    Close: '9.98'
+    Volume: '16100'
+    Adj_Close: '9.05'
+  '2013-09-04':
+    Symbol: WSBF
+    Date: '2013-09-04'
+    Open: '9.80'
+    High: '10.00'
+    Low: '9.79'
+    Close: '9.94'
+    Volume: '31500'
+    Adj_Close: '9.01'
+  '2013-09-03':
+    Symbol: WSBF
+    Date: '2013-09-03'
+    Open: '9.90'
+    High: '9.98'
+    Low: '9.77'
+    Close: '9.83'
+    Volume: '7600'
+    Adj_Close: '8.92'
+  '2013-08-30':
+    Symbol: WSBF
+    Date: '2013-08-30'
+    Open: '9.92'
+    High: '9.97'
+    Low: '9.76'
+    Close: '9.77'
+    Volume: '6500'
+    Adj_Close: '8.86'
+  '2013-08-29':
+    Symbol: WSBF
+    Date: '2013-08-29'
+    Open: '9.79'
+    High: '9.98'
+    Low: '9.78'
+    Close: '9.93'
+    Volume: '8200'
+    Adj_Close: '9.01'
+  '2013-08-28':
+    Symbol: WSBF
+    Date: '2013-08-28'
+    Open: '9.75'
+    High: '9.97'
+    Low: '9.61'
+    Close: '9.83'
+    Volume: '22400'
+    Adj_Close: '8.92'
+  '2013-08-27':
+    Symbol: WSBF
+    Date: '2013-08-27'
+    Open: '9.79'
+    High: '9.97'
+    Low: '9.72'
+    Close: '9.80'
+    Volume: '23400'
+    Adj_Close: '8.89'
+  '2013-08-26':
+    Symbol: WSBF
+    Date: '2013-08-26'
+    Open: '9.81'
+    High: '9.98'
+    Low: '9.76'
+    Close: '9.90'
+    Volume: '22100'
+    Adj_Close: '8.98'
+  '2013-08-23':
+    Symbol: WSBF
+    Date: '2013-08-23'
+    Open: '9.85'
+    High: '9.87'
+    Low: '9.71'
+    Close: '9.78'
+    Volume: '15100'
+    Adj_Close: '8.87'
+  '2013-08-22':
+    Symbol: WSBF
+    Date: '2013-08-22'
+    Open: '9.60'
+    High: '9.86'
+    Low: '9.60'
+    Close: '9.85'
+    Volume: '16500'
+    Adj_Close: '8.93'
+  '2013-08-21':
+    Symbol: WSBF
+    Date: '2013-08-21'
+    Open: '9.69'
+    High: '9.75'
+    Low: '9.56'
+    Close: '9.63'
+    Volume: '28100'
+    Adj_Close: '8.73'
+  '2013-08-20':
+    Symbol: WSBF
+    Date: '2013-08-20'
+    Open: '9.72'
+    High: '9.85'
+    Low: '9.62'
+    Close: '9.71'
+    Volume: '20800'
+    Adj_Close: '8.81'
+  '2013-08-19':
+    Symbol: WSBF
+    Date: '2013-08-19'
+    Open: '10.04'
+    High: '10.04'
+    Low: '9.64'
+    Close: '9.73'
+    Volume: '49000'
+    Adj_Close: '8.82'
+  '2013-08-16':
+    Symbol: WSBF
+    Date: '2013-08-16'
+    Open: '10.34'
+    High: '10.49'
+    Low: '9.97'
+    Close: '10.12'
+    Volume: '30100'
+    Adj_Close: '9.18'
+  '2013-08-15':
+    Symbol: WSBF
+    Date: '2013-08-15'
+    Open: '10.50'
+    High: '10.50'
+    Low: '10.21'
+    Close: '10.38'
+    Volume: '20100'
+    Adj_Close: '9.41'
+  '2013-08-14':
+    Symbol: WSBF
+    Date: '2013-08-14'
+    Open: '10.60'
+    High: '10.62'
+    Low: '10.50'
+    Close: '10.60'
+    Volume: '23100'
+    Adj_Close: '9.61'
+  '2013-08-13':
+    Symbol: WSBF
+    Date: '2013-08-13'
+    Open: '10.65'
+    High: '10.65'
+    Low: '10.58'
+    Close: '10.64'
+    Volume: '16400'
+    Adj_Close: '9.65'
+  '2013-08-12':
+    Symbol: WSBF
+    Date: '2013-08-12'
+    Open: '10.57'
+    High: '10.81'
+    Low: '10.50'
+    Close: '10.66'
+    Volume: '16500'
+    Adj_Close: '9.67'
+  '2013-08-09':
+    Symbol: WSBF
+    Date: '2013-08-09'
+    Open: '10.72'
+    High: '10.86'
+    Low: '10.53'
+    Close: '10.72'
+    Volume: '21900'
+    Adj_Close: '9.72'
+  '2013-08-08':
+    Symbol: WSBF
+    Date: '2013-08-08'
+    Open: '10.90'
+    High: '10.90'
+    Low: '10.57'
+    Close: '10.79'
+    Volume: '17400'
+    Adj_Close: '9.79'
+  '2013-08-07':
+    Symbol: WSBF
+    Date: '2013-08-07'
+    Open: '10.80'
+    High: '10.90'
+    Low: '10.75'
+    Close: '10.88'
+    Volume: '20000'
+    Adj_Close: '9.87'
+  '2013-08-06':
+    Symbol: WSBF
+    Date: '2013-08-06'
+    Open: '10.88'
+    High: '10.89'
+    Low: '10.80'
+    Close: '10.81'
+    Volume: '14000'
+    Adj_Close: '9.80'
+  '2013-08-05':
+    Symbol: WSBF
+    Date: '2013-08-05'
+    Open: '10.85'
+    High: '10.90'
+    Low: '10.80'
+    Close: '10.90'
+    Volume: '9700'
+    Adj_Close: '9.89'
+  '2013-08-02':
+    Symbol: WSBF
+    Date: '2013-08-02'
+    Open: '10.90'
+    High: '10.98'
+    Low: '10.77'
+    Close: '10.91'
+    Volume: '8900'
+    Adj_Close: '9.89'
+  '2013-08-01':
+    Symbol: WSBF
+    Date: '2013-08-01'
+    Open: '11.00'
+    High: '11.00'
+    Low: '10.75'
+    Close: '10.93'
+    Volume: '6900'
+    Adj_Close: '9.91'
+  '2013-07-31':
+    Symbol: WSBF
+    Date: '2013-07-31'
+    Open: '10.94'
+    High: '10.95'
+    Low: '10.74'
+    Close: '10.88'
+    Volume: '15100'
+    Adj_Close: '9.87'
+  '2013-07-30':
+    Symbol: WSBF
+    Date: '2013-07-30'
+    Open: '10.97'
+    High: '11.00'
+    Low: '10.89'
+    Close: '10.93'
+    Volume: '7000'
+    Adj_Close: '9.91'
+  '2013-07-29':
+    Symbol: WSBF
+    Date: '2013-07-29'
+    Open: '11.00'
+    High: '11.00'
+    Low: '10.79'
+    Close: '10.92'
+    Volume: '11900'
+    Adj_Close: '9.90'
+  '2013-07-26':
+    Symbol: WSBF
+    Date: '2013-07-26'
+    Open: '10.94'
+    High: '10.99'
+    Low: '10.79'
+    Close: '10.93'
+    Volume: '12100'
+    Adj_Close: '9.91'
+  '2013-07-25':
+    Symbol: WSBF
+    Date: '2013-07-25'
+    Open: '10.98'
+    High: '11.07'
+    Low: '10.82'
+    Close: '11.07'
+    Volume: '41900'
+    Adj_Close: '10.04'
+  '2013-07-24':
+    Symbol: WSBF
+    Date: '2013-07-24'
+    Open: '11.00'
+    High: '11.00'
+    Low: '10.93'
+    Close: '10.99'
+    Volume: '17700'
+    Adj_Close: '9.97'
+  '2013-07-23':
+    Symbol: WSBF
+    Date: '2013-07-23'
+    Open: '11.00'
+    High: '11.08'
+    Low: '10.89'
+    Close: '11.00'
+    Volume: '27800'
+    Adj_Close: '9.98'
+  '2013-07-22':
+    Symbol: WSBF
+    Date: '2013-07-22'
+    Open: '10.88'
+    High: '11.00'
+    Low: '10.73'
+    Close: '10.97'
+    Volume: '20000'
+    Adj_Close: '9.95'
+  '2013-07-19':
+    Symbol: WSBF
+    Date: '2013-07-19'
+    Open: '10.98'
+    High: '11.00'
+    Low: '10.87'
+    Close: '10.93'
+    Volume: '21900'
+    Adj_Close: '9.91'
+  '2013-07-18':
+    Symbol: WSBF
+    Date: '2013-07-18'
+    Open: '11.00'
+    High: '11.00'
+    Low: '10.74'
+    Close: '10.99'
+    Volume: '21700'
+    Adj_Close: '9.97'
+  '2013-07-17':
+    Symbol: WSBF
+    Date: '2013-07-17'
+    Open: '11.00'
+    High: '11.08'
+    Low: '10.90'
+    Close: '11.00'
+    Volume: '22700'
+    Adj_Close: '9.98'
+  '2013-07-16':
+    Symbol: WSBF
+    Date: '2013-07-16'
+    Open: '11.00'
+    High: '11.00'
+    Low: '10.87'
+    Close: '11.00'
+    Volume: '22900'
+    Adj_Close: '9.98'
+  '2013-07-15':
+    Symbol: WSBF
+    Date: '2013-07-15'
+    Open: '10.96'
+    High: '11.12'
+    Low: '10.91'
+    Close: '11.08'
+    Volume: '28000'
+    Adj_Close: '10.05'
+  '2013-07-12':
+    Symbol: WSBF
+    Date: '2013-07-12'
+    Open: '11.00'
+    High: '11.01'
+    Low: '10.79'
+    Close: '10.98'
+    Volume: '17500'
+    Adj_Close: '9.96'
+  '2013-07-11':
+    Symbol: WSBF
+    Date: '2013-07-11'
+    Open: '11.01'
+    High: '11.07'
+    Low: '10.86'
+    Close: '11.02'
+    Volume: '27300'
+    Adj_Close: '9.99'
+  '2013-07-10':
+    Symbol: WSBF
+    Date: '2013-07-10'
+    Open: '10.57'
+    High: '10.99'
+    Low: '10.53'
+    Close: '10.96'
+    Volume: '21600'
+    Adj_Close: '9.94'
+  '2013-07-09':
+    Symbol: WSBF
+    Date: '2013-07-09'
+    Open: '11.00'
+    High: '11.16'
+    Low: '10.84'
+    Close: '10.99'
+    Volume: '23400'
+    Adj_Close: '9.97'
+  '2013-07-08':
+    Symbol: WSBF
+    Date: '2013-07-08'
+    Open: '11.16'
+    High: '11.16'
+    Low: '10.36'
+    Close: '11.05'
+    Volume: '64800'
+    Adj_Close: '10.02'
+  '2013-07-05':
+    Symbol: WSBF
+    Date: '2013-07-05'
+    Open: '11.33'
+    High: '11.33'
+    Low: '10.95'
+    Close: '11.00'
+    Volume: '33000'
+    Adj_Close: '9.98'
+  '2013-07-03':
+    Symbol: WSBF
+    Date: '2013-07-03'
+    Open: '10.99'
+    High: '11.09'
+    Low: '10.53'
+    Close: '11.09'
+    Volume: '63500'
+    Adj_Close: '10.06'
+  '2013-07-02':
+    Symbol: WSBF
+    Date: '2013-07-02'
+    Open: '10.51'
+    High: '11.20'
+    Low: '10.50'
+    Close: '11.00'
+    Volume: '50500'
+    Adj_Close: '9.98'
+  '2013-07-01':
+    Symbol: WSBF
+    Date: '2013-07-01'
+    Open: '10.15'
+    High: '10.56'
+    Low: '10.04'
+    Close: '10.48'
+    Volume: '63900'
+    Adj_Close: '9.50'
+  '2013-06-28':
+    Symbol: WSBF
+    Date: '2013-06-28'
+    Open: '9.50'
+    High: '10.16'
+    Low: '9.49'
+    Close: '10.16'
+    Volume: '229300'
+    Adj_Close: '9.21'
+  '2013-06-27':
+    Symbol: WSBF
+    Date: '2013-06-27'
+    Open: '9.60'
+    High: '9.60'
+    Low: '9.40'
+    Close: '9.49'
+    Volume: '43100'
+    Adj_Close: '8.61'
+  '2013-06-26':
+    Symbol: WSBF
+    Date: '2013-06-26'
+    Open: '9.60'
+    High: '9.60'
+    Low: '9.52'
+    Close: '9.55'
+    Volume: '16500'
+    Adj_Close: '8.66'
+  '2013-06-25':
+    Symbol: WSBF
+    Date: '2013-06-25'
+    Open: '9.71'
+    High: '9.88'
+    Low: '9.52'
+    Close: '9.64'
+    Volume: '26100'
+    Adj_Close: '8.74'
+  '2013-06-24':
+    Symbol: WSBF
+    Date: '2013-06-24'
+    Open: '9.51'
+    High: '9.72'
+    Low: '9.51'
+    Close: '9.60'
+    Volume: '19500'
+    Adj_Close: '8.71'
+  '2013-06-21':
+    Symbol: WSBF
+    Date: '2013-06-21'
+    Open: '9.60'
+    High: '9.69'
+    Low: '9.50'
+    Close: '9.59'
+    Volume: '46400'
+    Adj_Close: '8.70'
+  '2013-06-20':
+    Symbol: WSBF
+    Date: '2013-06-20'
+    Open: '9.52'
+    High: '9.76'
+    Low: '9.52'
+    Close: '9.56'
+    Volume: '16100'
+    Adj_Close: '8.67'
+  '2013-06-19':
+    Symbol: WSBF
+    Date: '2013-06-19'
+    Open: '9.71'
+    High: '9.77'
+    Low: '9.60'
+    Close: '9.60'
+    Volume: '7100'
+    Adj_Close: '8.71'
+  '2013-06-18':
+    Symbol: WSBF
+    Date: '2013-06-18'
+    Open: '9.63'
+    High: '9.79'
+    Low: '9.56'
+    Close: '9.77'
+    Volume: '17800'
+    Adj_Close: '8.86'
+  '2013-06-17':
+    Symbol: WSBF
+    Date: '2013-06-17'
+    Open: '9.66'
+    High: '9.78'
+    Low: '9.52'
+    Close: '9.68'
+    Volume: '18100'
+    Adj_Close: '8.78'
+  '2013-06-14':
+    Symbol: WSBF
+    Date: '2013-06-14'
+    Open: '9.95'
+    High: '9.95'
+    Low: '9.45'
+    Close: '9.60'
+    Volume: '36000'
+    Adj_Close: '8.71'
+  '2013-06-13':
+    Symbol: WSBF
+    Date: '2013-06-13'
+    Open: '9.51'
+    High: '9.95'
+    Low: '9.51'
+    Close: '9.94'
+    Volume: '54400'
+    Adj_Close: '9.01'
+  '2013-06-12':
+    Symbol: WSBF
+    Date: '2013-06-12'
+    Open: '9.71'
+    High: '9.94'
+    Low: '9.60'
+    Close: '9.72'
+    Volume: '16700'
+    Adj_Close: '8.82'
+  '2013-06-11':
+    Symbol: WSBF
+    Date: '2013-06-11'
+    Open: '9.69'
+    High: '9.69'
+    Low: '9.45'
+    Close: '9.62'
+    Volume: '28800'
+    Adj_Close: '8.72'
+  '2013-06-10':
+    Symbol: WSBF
+    Date: '2013-06-10'
+    Open: '9.67'
+    High: '9.84'
+    Low: '9.50'
+    Close: '9.66'
+    Volume: '103100'
+    Adj_Close: '8.76'
+  '2013-06-07':
+    Symbol: WSBF
+    Date: '2013-06-07'
+    Open: '8.10'
+    High: '9.70'
+    Low: '8.10'
+    Close: '9.67'
+    Volume: '352800'
+    Adj_Close: '8.77'
+  '2013-06-06':
+    Symbol: WSBF
+    Date: '2013-06-06'
+    Open: '7.75'
+    High: '7.99'
+    Low: '7.75'
+    Close: '7.88'
+    Volume: '8100'
+    Adj_Close: '7.15'
+  '2013-06-05':
+    Symbol: WSBF
+    Date: '2013-06-05'
+    Open: '7.81'
+    High: '7.86'
+    Low: '7.75'
+    Close: '7.77'
+    Volume: '12500'
+    Adj_Close: '7.05'
+  '2013-06-04':
+    Symbol: WSBF
+    Date: '2013-06-04'
+    Open: '8.00'
+    High: '8.00'
+    Low: '7.81'
+    Close: '7.86'
+    Volume: '7700'
+    Adj_Close: '7.13'
+  '2013-06-03':
+    Symbol: WSBF
+    Date: '2013-06-03'
+    Open: '7.95'
+    High: '8.01'
+    Low: '7.90'
+    Close: '7.99'
+    Volume: '31500'
+    Adj_Close: '7.25'
+  '2013-05-31':
+    Symbol: WSBF
+    Date: '2013-05-31'
+    Open: '7.88'
+    High: '8.04'
+    Low: '7.88'
+    Close: '7.94'
+    Volume: '32300'
+    Adj_Close: '7.20'
+  '2013-05-30':
+    Symbol: WSBF
+    Date: '2013-05-30'
+    Open: '7.95'
+    High: '8.07'
+    Low: '7.89'
+    Close: '7.94'
+    Volume: '12100'
+    Adj_Close: '7.20'
+  '2013-05-29':
+    Symbol: WSBF
+    Date: '2013-05-29'
+    Open: '8.30'
+    High: '8.30'
+    Low: '7.90'
+    Close: '7.95'
+    Volume: '19300'
+    Adj_Close: '7.21'
+  '2014-01-24':
+    Symbol: WSBF
+    Date: '2014-01-24'
+    Open: '10.60'
+    High: '10.63'
+    Low: '10.52'
+    Close: '10.56'
+    Volume: '1251200'
+    Adj_Close: '10.51'
+  '2014-01-23':
+    Symbol: WSBF
+    Date: '2014-01-23'
+    Open: '10.65'
+    High: '10.70'
+    Low: '10.40'
+    Close: '10.66'
+    Volume: '4630800'
+    Adj_Close: '10.61'
+  '2014-01-22':
+    Symbol: WSBF
+    Date: '2014-01-22'
+    Open: '11.68'
+    High: '11.74'
+    Low: '11.61'
+    Close: '11.73'
+    Volume: '93800'
+    Adj_Close: '10.64'
+  '2014-01-21':
+    Symbol: WSBF
+    Date: '2014-01-21'
+    Open: '11.61'
+    High: '11.63'
+    Low: '11.59'
+    Close: '11.63'
+    Volume: '106600'
+    Adj_Close: '10.55'
+  '2014-01-17':
+    Symbol: WSBF
+    Date: '2014-01-17'
+    Open: '11.61'
+    High: '11.61'
+    Low: '11.56'
+    Close: '11.60'
+    Volume: '19700'
+    Adj_Close: '10.52'
+  '2014-01-16':
+    Symbol: WSBF
+    Date: '2014-01-16'
+    Open: '11.50'
+    High: '11.59'
+    Low: '11.50'
+    Close: '11.59'
+    Volume: '33200'
+    Adj_Close: '10.51'
+  '2014-01-15':
+    Symbol: WSBF
+    Date: '2014-01-15'
+    Open: '11.59'
+    High: '11.59'
+    Low: '11.53'
+    Close: '11.53'
+    Volume: '11500'
+    Adj_Close: '10.46'
+  '2014-01-14':
+    Symbol: WSBF
+    Date: '2014-01-14'
+    Open: '11.28'
+    High: '11.63'
+    Low: '11.28'
+    Close: '11.52'
+    Volume: '43400'
+    Adj_Close: '10.45'
+  '2014-01-13':
+    Symbol: WSBF
+    Date: '2014-01-13'
+    Open: '11.16'
+    High: '11.24'
+    Low: '11.15'
+    Close: '11.20'
+    Volume: '22600'
+    Adj_Close: '10.16'
+  '2014-01-10':
+    Symbol: WSBF
+    Date: '2014-01-10'
+    Open: '11.17'
+    High: '11.22'
+    Low: '11.15'
+    Close: '11.17'
+    Volume: '10900'
+    Adj_Close: '10.13'
+  '2014-01-09':
+    Symbol: WSBF
+    Date: '2014-01-09'
+    Open: '11.15'
+    High: '11.15'
+    Low: '11.10'
+    Close: '11.14'
+    Volume: '30300'
+    Adj_Close: '10.10'
+  '2014-01-08':
+    Symbol: WSBF
+    Date: '2014-01-08'
+    Open: '11.10'
+    High: '11.15'
+    Low: '11.10'
+    Close: '11.10'
+    Volume: '27300'
+    Adj_Close: '10.07'
+  '2014-01-07':
+    Symbol: WSBF
+    Date: '2014-01-07'
+    Open: '11.21'
+    High: '11.25'
+    Low: '11.10'
+    Close: '11.11'
+    Volume: '23300'
+    Adj_Close: '10.08'
+  '2014-01-06':
+    Symbol: WSBF
+    Date: '2014-01-06'
+    Open: '11.12'
+    High: '11.21'
+    Low: '11.12'
+    Close: '11.15'
+    Volume: '19400'
+    Adj_Close: '10.11'
+  '2014-01-03':
+    Symbol: WSBF
+    Date: '2014-01-03'
+    Open: '11.04'
+    High: '11.21'
+    Low: '11.04'
+    Close: '11.21'
+    Volume: '38600'
+    Adj_Close: '10.17'
+  '2014-01-02':
+    Symbol: WSBF
+    Date: '2014-01-02'
+    Open: '11.10'
+    High: '11.19'
+    Low: '11.01'
+    Close: '11.04'
+    Volume: '47500'
+    Adj_Close: '10.01'
+  '2013-12-31':
+    Symbol: WSBF
+    Date: '2013-12-31'
+    Open: '11.11'
+    High: '11.20'
+    Low: '11.00'
+    Close: '11.10'
+    Volume: '262600'
+    Adj_Close: '10.07'
+  '2013-12-30':
+    Symbol: WSBF
+    Date: '2013-12-30'
+    Open: '11.22'
+    High: '11.25'
+    Low: '11.18'
+    Close: '11.18'
+    Volume: '21700'
+    Adj_Close: '10.14'
+  '2013-12-27':
+    Symbol: WSBF
+    Date: '2013-12-27'
+    Open: '11.20'
+    High: '11.26'
+    Low: '11.20'
+    Close: '11.21'
+    Volume: '20100'
+    Adj_Close: '10.17'
+  '2013-12-26':
+    Symbol: WSBF
+    Date: '2013-12-26'
+    Open: '11.22'
+    High: '11.28'
+    Low: '11.20'
+    Close: '11.22'
+    Volume: '15500'
+    Adj_Close: '10.18'
+  '2013-12-24':
+    Symbol: WSBF
+    Date: '2013-12-24'
+    Open: '11.27'
+    High: '11.28'
+    Low: '11.15'
+    Close: '11.24'
+    Volume: '14300'
+    Adj_Close: '10.19'
+  '2013-12-23':
+    Symbol: WSBF
+    Date: '2013-12-23'
+    Open: '11.26'
+    High: '11.26'
+    Low: '11.14'
+    Close: '11.20'
+    Volume: '28000'
+    Adj_Close: '10.16'
+  '2013-12-20':
+    Symbol: WSBF
+    Date: '2013-12-20'
+    Open: '11.50'
+    High: '11.50'
+    Low: '11.10'
+    Close: '11.29'
+    Volume: '87900'
+    Adj_Close: '10.24'
+  '2013-12-19':
+    Symbol: WSBF
+    Date: '2013-12-19'
+    Open: '11.55'
+    High: '11.55'
+    Low: '11.45'
+    Close: '11.52'
+    Volume: '27800'
+    Adj_Close: '10.45'
+  '2013-12-18':
+    Symbol: WSBF
+    Date: '2013-12-18'
+    Open: '11.36'
+    High: '11.55'
+    Low: '11.36'
+    Close: '11.55'
+    Volume: '51600'
+    Adj_Close: '10.48'
+  '2013-12-17':
+    Symbol: WSBF
+    Date: '2013-12-17'
+    Open: '11.33'
+    High: '11.40'
+    Low: '11.33'
+    Close: '11.39'
+    Volume: '13300'
+    Adj_Close: '10.33'
+  '2013-12-16':
+    Symbol: WSBF
+    Date: '2013-12-16'
+    Open: '11.36'
+    High: '11.39'
+    Low: '11.32'
+    Close: '11.39'
+    Volume: '16400'
+    Adj_Close: '10.33'
+  '2013-12-13':
+    Symbol: WSBF
+    Date: '2013-12-13'
+    Open: '11.35'
+    High: '11.36'
+    Low: '11.27'
+    Close: '11.33'
+    Volume: '35300'
+    Adj_Close: '10.28'
+  '2013-12-12':
+    Symbol: WSBF
+    Date: '2013-12-12'
+    Open: '11.25'
+    High: '11.35'
+    Low: '11.25'
+    Close: '11.30'
+    Volume: '29400'
+    Adj_Close: '10.25'
+  '2013-12-11':
+    Symbol: WSBF
+    Date: '2013-12-11'
+    Open: '11.20'
+    High: '11.27'
+    Low: '11.15'
+    Close: '11.22'
+    Volume: '35700'
+    Adj_Close: '10.18'
+  '2013-12-10':
+    Symbol: WSBF
+    Date: '2013-12-10'
+    Open: '11.31'
+    High: '11.35'
+    Low: '11.14'
+    Close: '11.15'
+    Volume: '31800'
+    Adj_Close: '10.11'
+  '2013-12-09':
+    Symbol: WSBF
+    Date: '2013-12-09'
+    Open: '11.29'
+    High: '11.34'
+    Low: '11.29'
+    Close: '11.31'
+    Volume: '25600'
+    Adj_Close: '10.26'
+  '2013-12-06':
+    Symbol: WSBF
+    Date: '2013-12-06'
+    Open: '11.27'
+    High: '11.33'
+    Low: '11.26'
+    Close: '11.29'
+    Volume: '28700'
+    Adj_Close: '10.24'
+  '2013-12-05':
+    Symbol: WSBF
+    Date: '2013-12-05'
+    Open: '11.30'
+    High: '11.33'
+    Low: '11.25'
+    Close: '11.27'
+    Volume: '22000'
+    Adj_Close: '10.22'
+  '2013-12-04':
+    Symbol: WSBF
+    Date: '2013-12-04'
+    Open: '11.30'
+    High: '11.38'
+    Low: '11.30'
+    Close: '11.31'
+    Volume: '21900'
+    Adj_Close: '10.26'
+  '2013-12-03':
+    Symbol: WSBF
+    Date: '2013-12-03'
+    Open: '11.30'
+    High: '11.35'
+    Low: '11.23'
+    Close: '11.31'
+    Volume: '28100'
+    Adj_Close: '10.26'
+  '2013-12-02':
+    Symbol: WSBF
+    Date: '2013-12-02'
+    Open: '11.26'
+    High: '11.38'
+    Low: '11.25'
+    Close: '11.25'
+    Volume: '26800'
+    Adj_Close: '10.20'
+  '2013-11-29':
+    Symbol: WSBF
+    Date: '2013-11-29'
+    Open: '11.37'
+    High: '11.42'
+    Low: '11.29'
+    Close: '11.32'
+    Volume: '12200'
+    Adj_Close: '10.27'
+  '2013-11-27':
+    Symbol: WSBF
+    Date: '2013-11-27'
+    Open: '11.20'
+    High: '11.34'
+    Low: '11.20'
+    Close: '11.34'
+    Volume: '25200'
+    Adj_Close: '10.28'
+  '2013-11-26':
+    Symbol: WSBF
+    Date: '2013-11-26'
+    Open: '11.20'
+    High: '11.25'
+    Low: '11.15'
+    Close: '11.22'
+    Volume: '43600'
+    Adj_Close: '10.18'
+  '2013-11-25':
+    Symbol: WSBF
+    Date: '2013-11-25'
+    Open: '11.08'
+    High: '11.20'
+    Low: '10.90'
+    Close: '11.15'
+    Volume: '35600'
+    Adj_Close: '10.11'
+  '2013-11-22':
+    Symbol: WSBF
+    Date: '2013-11-22'
+    Open: '11.13'
+    High: '11.28'
+    Low: '10.90'
+    Close: '11.22'
+    Volume: '25600'
+    Adj_Close: '10.18'
+  '2013-11-21':
+    Symbol: WSBF
+    Date: '2013-11-21'
+    Open: '11.00'
+    High: '11.28'
+    Low: '10.96'
+    Close: '11.16'
+    Volume: '36300'
+    Adj_Close: '10.12'
+  '2013-11-20':
+    Symbol: WSBF
+    Date: '2013-11-20'
+    Open: '10.95'
+    High: '11.00'
+    Low: '10.90'
+    Close: '10.91'
+    Volume: '17000'
+    Adj_Close: '9.89'
+  '2013-11-19':
+    Symbol: WSBF
+    Date: '2013-11-19'
+    Open: '10.85'
+    High: '10.99'
+    Low: '10.81'
+    Close: '10.90'
+    Volume: '17000'
+    Adj_Close: '9.89'
+  '2013-11-18':
+    Symbol: WSBF
+    Date: '2013-11-18'
+    Open: '10.80'
+    High: '10.85'
+    Low: '10.73'
+    Close: '10.81'
+    Volume: '8600'
+    Adj_Close: '9.80'
+  '2013-11-15':
+    Symbol: WSBF
+    Date: '2013-11-15'
+    Open: '10.68'
+    High: '10.81'
+    Low: '10.68'
+    Close: '10.75'
+    Volume: '15700'
+    Adj_Close: '9.75'
+  '2013-11-14':
+    Symbol: WSBF
+    Date: '2013-11-14'
+    Open: '10.62'
+    High: '10.74'
+    Low: '10.62'
+    Close: '10.70'
+    Volume: '3900'
+    Adj_Close: '9.70'
+  '2013-11-13':
+    Symbol: WSBF
+    Date: '2013-11-13'
+    Open: '10.60'
+    High: '10.66'
+    Low: '10.54'
+    Close: '10.66'
+    Volume: '5100'
+    Adj_Close: '9.67'
+  '2013-11-12':
+    Symbol: WSBF
+    Date: '2013-11-12'
+    Open: '10.59'
+    High: '10.67'
+    Low: '10.59'
+    Close: '10.65'
+    Volume: '12900'
+    Adj_Close: '9.66'
+  '2013-11-11':
+    Symbol: WSBF
+    Date: '2013-11-11'
+    Open: '10.55'
+    High: '10.74'
+    Low: '10.55'
+    Close: '10.67'
+    Volume: '11100'
+    Adj_Close: '9.68'
+  '2013-11-08':
+    Symbol: WSBF
+    Date: '2013-11-08'
+    Open: '10.59'
+    High: '10.79'
+    Low: '10.59'
+    Close: '10.76'
+    Volume: '7600'
+    Adj_Close: '9.76'
+  '2013-11-07':
+    Symbol: WSBF
+    Date: '2013-11-07'
+    Open: '10.65'
+    High: '10.65'
+    Low: '10.50'
+    Close: '10.55'
+    Volume: '25500'
+    Adj_Close: '9.57'
+  '2013-11-06':
+    Symbol: WSBF
+    Date: '2013-11-06'
+    Open: '10.72'
+    High: '10.73'
+    Low: '10.60'
+    Close: '10.65'
+    Volume: '7100'
+    Adj_Close: '9.66'
+  '2013-11-05':
+    Symbol: WSBF
+    Date: '2013-11-05'
+    Open: '10.67'
+    High: '10.75'
+    Low: '10.56'
+    Close: '10.64'
+    Volume: '7700'
+    Adj_Close: '9.65'
+  '2013-11-04':
+    Symbol: WSBF
+    Date: '2013-11-04'
+    Open: '10.65'
+    High: '10.76'
+    Low: '10.55'
+    Close: '10.75'
+    Volume: '12800'
+    Adj_Close: '9.75'
+  '2013-11-01':
+    Symbol: WSBF
+    Date: '2013-11-01'
+    Open: '10.61'
+    High: '10.80'
+    Low: '10.20'
+    Close: '10.69'
+    Volume: '30300'
+    Adj_Close: '9.70'
+  '2013-10-31':
+    Symbol: WSBF
+    Date: '2013-10-31'
+    Open: '10.97'
+    High: '10.97'
+    Low: '10.60'
+    Close: '10.64'
+    Volume: '11100'
+    Adj_Close: '9.65'
+  '2013-10-30':
+    Symbol: WSBF
+    Date: '2013-10-30'
+    Open: '10.82'
+    High: '10.85'
+    Low: '10.62'
+    Close: '10.62'
+    Volume: '8600'
+    Adj_Close: '9.63'
+  '2013-10-29':
+    Symbol: WSBF
+    Date: '2013-10-29'
+    Open: '10.92'
+    High: '11.00'
+    Low: '10.66'
+    Close: '10.89'
+    Volume: '4000'
+    Adj_Close: '9.88'
+  '2013-10-28':
+    Symbol: WSBF
+    Date: '2013-10-28'
+    Open: '10.78'
+    High: '10.92'
+    Low: '10.67'
+    Close: '10.92'
+    Volume: '10300'
+    Adj_Close: '9.90'
+  '2013-10-25':
+    Symbol: WSBF
+    Date: '2013-10-25'
+    Open: '10.65'
+    High: '10.88'
+    Low: '10.63'
+    Close: '10.81'
+    Volume: '14400'
+    Adj_Close: '9.80'
+  '2013-10-24':
+    Symbol: WSBF
+    Date: '2013-10-24'
+    Open: '10.65'
+    High: '10.65'
+    Low: '10.60'
+    Close: '10.62'
+    Volume: '7300'
+    Adj_Close: '9.63'
+  '2013-10-23':
+    Symbol: WSBF
+    Date: '2013-10-23'
+    Open: '10.57'
+    High: '10.65'
+    Low: '10.45'
+    Close: '10.62'
+    Volume: '25800'
+    Adj_Close: '9.63'
+  '2013-10-22':
+    Symbol: WSBF
+    Date: '2013-10-22'
+    Open: '10.49'
+    High: '10.64'
+    Low: '10.49'
+    Close: '10.62'
+    Volume: '6300'
+    Adj_Close: '9.63'
+  '2013-10-21':
+    Symbol: WSBF
+    Date: '2013-10-21'
+    Open: '10.45'
+    High: '10.62'
+    Low: '10.42'
+    Close: '10.44'
+    Volume: '11400'
+    Adj_Close: '9.47'
+  '2013-10-18':
+    Symbol: WSBF
+    Date: '2013-10-18'
+    Open: '10.61'
+    High: '10.65'
+    Low: '10.50'
+    Close: '10.63'
+    Volume: '19000'
+    Adj_Close: '9.64'
+  '2013-10-17':
+    Symbol: WSBF
+    Date: '2013-10-17'
+    Open: '10.61'
+    High: '10.65'
+    Low: '10.20'
+    Close: '10.63'
+    Volume: '14900'
+    Adj_Close: '9.64'
+  '2013-10-16':
+    Symbol: WSBF
+    Date: '2013-10-16'
+    Open: '10.50'
+    High: '10.65'
+    Low: '10.49'
+    Close: '10.64'
+    Volume: '11400'
+    Adj_Close: '9.65'
+  '2013-10-15':
+    Symbol: WSBF
+    Date: '2013-10-15'
+    Open: '10.49'
+    High: '10.49'
+    Low: '10.35'
+    Close: '10.45'
+    Volume: '5700'
+    Adj_Close: '9.48'
+  '2013-10-14':
+    Symbol: WSBF
+    Date: '2013-10-14'
+    Open: '10.23'
+    High: '10.50'
+    Low: '10.23'
+    Close: '10.50'
+    Volume: '17200'
+    Adj_Close: '9.52'
+  '2013-10-11':
+    Symbol: WSBF
+    Date: '2013-10-11'
+    Open: '10.50'
+    High: '10.51'
+    Low: '10.42'
+    Close: '10.51'
+    Volume: '16700'
+    Adj_Close: '9.53'
+  '2013-10-10':
+    Symbol: WSBF
+    Date: '2013-10-10'
+    Open: '10.48'
+    High: '10.50'
+    Low: '10.29'
+    Close: '10.49'
+    Volume: '8700'
+    Adj_Close: '9.51'
+  '2013-10-09':
+    Symbol: WSBF
+    Date: '2013-10-09'
+    Open: '10.33'
+    High: '10.49'
+    Low: '10.31'
+    Close: '10.31'
+    Volume: '10300'
+    Adj_Close: '9.35'
+  '2013-10-08':
+    Symbol: WSBF
+    Date: '2013-10-08'
+    Open: '10.24'
+    High: '10.48'
+    Low: '10.22'
+    Close: '10.31'
+    Volume: '18400'
+    Adj_Close: '9.35'
+  '2013-10-07':
+    Symbol: WSBF
+    Date: '2013-10-07'
+    Open: '10.41'
+    High: '10.50'
+    Low: '10.16'
+    Close: '10.31'
+    Volume: '29700'
+    Adj_Close: '9.35'
+  '2013-10-04':
+    Symbol: WSBF
+    Date: '2013-10-04'
+    Open: '10.56'
+    High: '10.63'
+    Low: '10.50'
+    Close: '10.52'
+    Volume: '3500'
+    Adj_Close: '9.54'
+  '2013-10-03':
+    Symbol: WSBF
+    Date: '2013-10-03'
+    Open: '10.41'
+    High: '10.63'
+    Low: '10.41'
+    Close: '10.59'
+    Volume: '4000'
+    Adj_Close: '9.60'
+  '2013-10-02':
+    Symbol: WSBF
+    Date: '2013-10-02'
+    Open: '10.60'
+    High: '10.65'
+    Low: '10.34'
+    Close: '10.59'
+    Volume: '28900'
+    Adj_Close: '9.60'
+  '2013-10-01':
+    Symbol: WSBF
+    Date: '2013-10-01'
+    Open: '10.22'
+    High: '10.65'
+    Low: '10.22'
+    Close: '10.60'
+    Volume: '25800'
+    Adj_Close: '9.61'
+  '2013-09-30':
+    Symbol: WSBF
+    Date: '2013-09-30'
+    Open: '10.08'
+    High: '10.48'
+    Low: '10.08'
+    Close: '10.15'
+    Volume: '78200'
+    Adj_Close: '9.21'
+  '2013-09-27':
+    Symbol: WSBF
+    Date: '2013-09-27'
+    Open: '10.13'
+    High: '10.56'
+    Low: '10.13'
+    Close: '10.16'
+    Volume: '5500'
+    Adj_Close: '9.21'
+  '2014-05-23':
+    Symbol: WSBF
+    Date: '2014-05-23'
+    Open: '10.79'
+    High: '10.80'
+    Low: '10.70'
+    Close: '10.80'
+    Volume: '207200'
+    Adj_Close: '10.80'
+  '2014-05-22':
+    Symbol: WSBF
+    Date: '2014-05-22'
+    Open: '10.69'
+    High: '10.82'
+    Low: '10.67'
+    Close: '10.79'
+    Volume: '338400'
+    Adj_Close: '10.79'
+  '2014-05-21':
+    Symbol: WSBF
+    Date: '2014-05-21'
+    Open: '10.70'
+    High: '10.70'
+    Low: '10.65'
+    Close: '10.70'
+    Volume: '285600'
+    Adj_Close: '10.70'
+  '2014-05-20':
+    Symbol: WSBF
+    Date: '2014-05-20'
+    Open: '10.70'
+    High: '10.70'
+    Low: '10.65'
+    Close: '10.70'
+    Volume: '139800'
+    Adj_Close: '10.70'
+  '2014-05-19':
+    Symbol: WSBF
+    Date: '2014-05-19'
+    Open: '10.59'
+    High: '10.70'
+    Low: '10.59'
+    Close: '10.70'
+    Volume: '242200'
+    Adj_Close: '10.70'
+  '2014-05-16':
+    Symbol: WSBF
+    Date: '2014-05-16'
+    Open: '10.63'
+    High: '10.65'
+    Low: '10.56'
+    Close: '10.65'
+    Volume: '148400'
+    Adj_Close: '10.65'
+  '2014-05-15':
+    Symbol: WSBF
+    Date: '2014-05-15'
+    Open: '10.60'
+    High: '10.64'
+    Low: '10.56'
+    Close: '10.63'
+    Volume: '316300'
+    Adj_Close: '10.63'
+  '2014-05-14':
+    Symbol: WSBF
+    Date: '2014-05-14'
+    Open: '10.68'
+    High: '10.70'
+    Low: '10.56'
+    Close: '10.62'
+    Volume: '156200'
+    Adj_Close: '10.62'
+  '2014-05-13':
+    Symbol: WSBF
+    Date: '2014-05-13'
+    Open: '10.66'
+    High: '10.70'
+    Low: '10.66'
+    Close: '10.66'
+    Volume: '170700'
+    Adj_Close: '10.66'
+  '2014-05-12':
+    Symbol: WSBF
+    Date: '2014-05-12'
+    Open: '10.64'
+    High: '10.70'
+    Low: '10.61'
+    Close: '10.67'
+    Volume: '406800'
+    Adj_Close: '10.67'
+  '2014-05-09':
+    Symbol: WSBF
+    Date: '2014-05-09'
+    Open: '10.60'
+    High: '10.65'
+    Low: '10.57'
+    Close: '10.60'
+    Volume: '229900'
+    Adj_Close: '10.60'
+  '2014-05-08':
+    Symbol: WSBF
+    Date: '2014-05-08'
+    Open: '10.58'
+    High: '10.64'
+    Low: '10.57'
+    Close: '10.61'
+    Volume: '551400'
+    Adj_Close: '10.61'
+  '2014-05-07':
+    Symbol: WSBF
+    Date: '2014-05-07'
+    Open: '10.64'
+    High: '10.69'
+    Low: '10.58'
+    Close: '10.58'
+    Volume: '176900'
+    Adj_Close: '10.58'
+  '2014-05-06':
+    Symbol: WSBF
+    Date: '2014-05-06'
+    Open: '10.52'
+    High: '10.65'
+    Low: '10.50'
+    Close: '10.57'
+    Volume: '213100'
+    Adj_Close: '10.57'
+  '2014-05-05':
+    Symbol: WSBF
+    Date: '2014-05-05'
+    Open: '10.50'
+    High: '10.56'
+    Low: '10.41'
+    Close: '10.52'
+    Volume: '103700'
+    Adj_Close: '10.52'
+  '2014-05-02':
+    Symbol: WSBF
+    Date: '2014-05-02'
+    Open: '10.50'
+    High: '10.60'
+    Low: '10.45'
+    Close: '10.59'
+    Volume: '531000'
+    Adj_Close: '10.59'
+  '2014-05-01':
+    Symbol: WSBF
+    Date: '2014-05-01'
+    Open: '10.39'
+    High: '10.48'
+    Low: '10.32'
+    Close: '10.44'
+    Volume: '205000'
+    Adj_Close: '10.44'
+  '2014-04-30':
+    Symbol: WSBF
+    Date: '2014-04-30'
+    Open: '10.32'
+    High: '10.45'
+    Low: '10.26'
+    Close: '10.41'
+    Volume: '145400'
+    Adj_Close: '10.41'
+  '2014-04-29':
+    Symbol: WSBF
+    Date: '2014-04-29'
+    Open: '10.36'
+    High: '10.48'
+    Low: '10.25'
+    Close: '10.33'
+    Volume: '102400'
+    Adj_Close: '10.33'
+  '2014-04-28':
+    Symbol: WSBF
+    Date: '2014-04-28'
+    Open: '10.50'
+    High: '10.50'
+    Low: '10.30'
+    Close: '10.30'
+    Volume: '125900'
+    Adj_Close: '10.30'
+  '2014-04-25':
+    Symbol: WSBF
+    Date: '2014-04-25'
+    Open: '10.51'
+    High: '10.55'
+    Low: '10.38'
+    Close: '10.45'
+    Volume: '103000'
+    Adj_Close: '10.45'
+  '2014-04-24':
+    Symbol: WSBF
+    Date: '2014-04-24'
+    Open: '10.56'
+    High: '10.61'
+    Low: '10.45'
+    Close: '10.56'
+    Volume: '196700'
+    Adj_Close: '10.56'
+  '2014-04-23':
+    Symbol: WSBF
+    Date: '2014-04-23'
+    Open: '10.45'
+    High: '10.55'
+    Low: '10.41'
+    Close: '10.52'
+    Volume: '133800'
+    Adj_Close: '10.52'
+  '2014-04-22':
+    Symbol: WSBF
+    Date: '2014-04-22'
+    Open: '10.31'
+    High: '10.50'
+    Low: '10.31'
+    Close: '10.44'
+    Volume: '193000'
+    Adj_Close: '10.44'
+  '2014-04-21':
+    Symbol: WSBF
+    Date: '2014-04-21'
+    Open: '10.30'
+    High: '10.35'
+    Low: '10.28'
+    Close: '10.33'
+    Volume: '219600'
+    Adj_Close: '10.33'
+  '2014-04-17':
+    Symbol: WSBF
+    Date: '2014-04-17'
+    Open: '10.25'
+    High: '10.32'
+    Low: '10.24'
+    Close: '10.30'
+    Volume: '57600'
+    Adj_Close: '10.30'
+  '2014-04-16':
+    Symbol: WSBF
+    Date: '2014-04-16'
+    Open: '10.20'
+    High: '10.25'
+    Low: '10.17'
+    Close: '10.24'
+    Volume: '73500'
+    Adj_Close: '10.24'
+  '2014-04-15':
+    Symbol: WSBF
+    Date: '2014-04-15'
+    Open: '10.20'
+    High: '10.23'
+    Low: '10.13'
+    Close: '10.18'
+    Volume: '118600'
+    Adj_Close: '10.18'
+  '2014-04-14':
+    Symbol: WSBF
+    Date: '2014-04-14'
+    Open: '10.23'
+    High: '10.24'
+    Low: '10.15'
+    Close: '10.21'
+    Volume: '121600'
+    Adj_Close: '10.21'
+  '2014-04-11':
+    Symbol: WSBF
+    Date: '2014-04-11'
+    Open: '10.13'
+    High: '10.20'
+    Low: '10.12'
+    Close: '10.16'
+    Volume: '129900'
+    Adj_Close: '10.16'
+  '2014-04-10':
+    Symbol: WSBF
+    Date: '2014-04-10'
+    Open: '10.16'
+    High: '10.22'
+    Low: '10.15'
+    Close: '10.18'
+    Volume: '185700'
+    Adj_Close: '10.18'
+  '2014-04-09':
+    Symbol: WSBF
+    Date: '2014-04-09'
+    Open: '10.16'
+    High: '10.27'
+    Low: '10.14'
+    Close: '10.19'
+    Volume: '187000'
+    Adj_Close: '10.19'
+  '2014-04-08':
+    Symbol: WSBF
+    Date: '2014-04-08'
+    Open: '10.12'
+    High: '10.22'
+    Low: '10.08'
+    Close: '10.17'
+    Volume: '275900'
+    Adj_Close: '10.12'
+  '2014-04-07':
+    Symbol: WSBF
+    Date: '2014-04-07'
+    Open: '10.19'
+    High: '10.22'
+    Low: '10.09'
+    Close: '10.11'
+    Volume: '297800'
+    Adj_Close: '10.06'
+  '2014-04-04':
+    Symbol: WSBF
+    Date: '2014-04-04'
+    Open: '10.29'
+    High: '10.29'
+    Low: '10.12'
+    Close: '10.19'
+    Volume: '372600'
+    Adj_Close: '10.14'
+  '2014-04-03':
+    Symbol: WSBF
+    Date: '2014-04-03'
+    Open: '10.39'
+    High: '10.39'
+    Low: '10.27'
+    Close: '10.28'
+    Volume: '168200'
+    Adj_Close: '10.23'
+  '2014-04-02':
+    Symbol: WSBF
+    Date: '2014-04-02'
+    Open: '10.37'
+    High: '10.40'
+    Low: '10.31'
+    Close: '10.37'
+    Volume: '169400'
+    Adj_Close: '10.32'
+  '2014-04-01':
+    Symbol: WSBF
+    Date: '2014-04-01'
+    Open: '10.38'
+    High: '10.43'
+    Low: '10.33'
+    Close: '10.39'
+    Volume: '219400'
+    Adj_Close: '10.34'
+  '2014-03-31':
+    Symbol: WSBF
+    Date: '2014-03-31'
+    Open: '10.25'
+    High: '10.39'
+    Low: '10.25'
+    Close: '10.39'
+    Volume: '806000'
+    Adj_Close: '10.34'
+  '2014-03-28':
+    Symbol: WSBF
+    Date: '2014-03-28'
+    Open: '10.26'
+    High: '10.29'
+    Low: '10.24'
+    Close: '10.25'
+    Volume: '246700'
+    Adj_Close: '10.20'
+  '2014-03-27':
+    Symbol: WSBF
+    Date: '2014-03-27'
+    Open: '10.28'
+    High: '10.35'
+    Low: '10.24'
+    Close: '10.27'
+    Volume: '288200'
+    Adj_Close: '10.22'
+  '2014-03-26':
+    Symbol: WSBF
+    Date: '2014-03-26'
+    Open: '10.39'
+    High: '10.40'
+    Low: '10.27'
+    Close: '10.27'
+    Volume: '407000'
+    Adj_Close: '10.22'
+  '2014-03-25':
+    Symbol: WSBF
+    Date: '2014-03-25'
+    Open: '10.49'
+    High: '10.50'
+    Low: '10.35'
+    Close: '10.37'
+    Volume: '277200'
+    Adj_Close: '10.32'
+  '2014-03-24':
+    Symbol: WSBF
+    Date: '2014-03-24'
+    Open: '10.52'
+    High: '10.54'
+    Low: '10.46'
+    Close: '10.49'
+    Volume: '264800'
+    Adj_Close: '10.44'
+  '2014-03-21':
+    Symbol: WSBF
+    Date: '2014-03-21'
+    Open: '10.54'
+    High: '10.54'
+    Low: '10.48'
+    Close: '10.50'
+    Volume: '240100'
+    Adj_Close: '10.45'
+  '2014-03-20':
+    Symbol: WSBF
+    Date: '2014-03-20'
+    Open: '10.48'
+    High: '10.55'
+    Low: '10.47'
+    Close: '10.54'
+    Volume: '264200'
+    Adj_Close: '10.49'
+  '2014-03-19':
+    Symbol: WSBF
+    Date: '2014-03-19'
+    Open: '10.51'
+    High: '10.55'
+    Low: '10.48'
+    Close: '10.51'
+    Volume: '205600'
+    Adj_Close: '10.46'
+  '2014-03-18':
+    Symbol: WSBF
+    Date: '2014-03-18'
+    Open: '10.54'
+    High: '10.55'
+    Low: '10.50'
+    Close: '10.53'
+    Volume: '164600'
+    Adj_Close: '10.48'
+  '2014-03-17':
+    Symbol: WSBF
+    Date: '2014-03-17'
+    Open: '10.52'
+    High: '10.55'
+    Low: '10.51'
+    Close: '10.53'
+    Volume: '171300'
+    Adj_Close: '10.48'
+  '2014-03-14':
+    Symbol: WSBF
+    Date: '2014-03-14'
+    Open: '10.50'
+    High: '10.52'
+    Low: '10.47'
+    Close: '10.52'
+    Volume: '237300'
+    Adj_Close: '10.47'
+  '2014-03-13':
+    Symbol: WSBF
+    Date: '2014-03-13'
+    Open: '10.50'
+    High: '10.51'
+    Low: '10.46'
+    Close: '10.50'
+    Volume: '198200'
+    Adj_Close: '10.45'
+  '2014-03-12':
+    Symbol: WSBF
+    Date: '2014-03-12'
+    Open: '10.50'
+    High: '10.52'
+    Low: '10.49'
+    Close: '10.50'
+    Volume: '187100'
+    Adj_Close: '10.45'
+  '2014-03-11':
+    Symbol: WSBF
+    Date: '2014-03-11'
+    Open: '10.54'
+    High: '10.55'
+    Low: '10.48'
+    Close: '10.51'
+    Volume: '249900'
+    Adj_Close: '10.46'
+  '2014-03-10':
+    Symbol: WSBF
+    Date: '2014-03-10'
+    Open: '10.53'
+    High: '10.56'
+    Low: '10.52'
+    Close: '10.55'
+    Volume: '129800'
+    Adj_Close: '10.50'
+  '2014-03-07':
+    Symbol: WSBF
+    Date: '2014-03-07'
+    Open: '10.52'
+    High: '10.57'
+    Low: '10.51'
+    Close: '10.54'
+    Volume: '201800'
+    Adj_Close: '10.49'
+  '2014-03-06':
+    Symbol: WSBF
+    Date: '2014-03-06'
+    Open: '10.56'
+    High: '10.56'
+    Low: '10.49'
+    Close: '10.51'
+    Volume: '271500'
+    Adj_Close: '10.46'
+  '2014-03-05':
+    Symbol: WSBF
+    Date: '2014-03-05'
+    Open: '10.54'
+    High: '10.54'
+    Low: '10.49'
+    Close: '10.53'
+    Volume: '208700'
+    Adj_Close: '10.48'
+  '2014-03-04':
+    Symbol: WSBF
+    Date: '2014-03-04'
+    Open: '10.50'
+    High: '10.58'
+    Low: '10.49'
+    Close: '10.55'
+    Volume: '250300'
+    Adj_Close: '10.50'
+  '2014-03-03':
+    Symbol: WSBF
+    Date: '2014-03-03'
+    Open: '10.51'
+    High: '10.56'
+    Low: '10.40'
+    Close: '10.48'
+    Volume: '316300'
+    Adj_Close: '10.43'
+  '2014-02-28':
+    Symbol: WSBF
+    Date: '2014-02-28'
+    Open: '10.52'
+    High: '10.58'
+    Low: '10.52'
+    Close: '10.56'
+    Volume: '190200'
+    Adj_Close: '10.51'
+  '2014-02-27':
+    Symbol: WSBF
+    Date: '2014-02-27'
+    Open: '10.54'
+    High: '10.58'
+    Low: '10.53'
+    Close: '10.56'
+    Volume: '171700'
+    Adj_Close: '10.51'
+  '2014-02-26':
+    Symbol: WSBF
+    Date: '2014-02-26'
+    Open: '10.55'
+    High: '10.58'
+    Low: '10.50'
+    Close: '10.56'
+    Volume: '126700'
+    Adj_Close: '10.51'
+  '2014-02-25':
+    Symbol: WSBF
+    Date: '2014-02-25'
+    Open: '10.59'
+    High: '10.59'
+    Low: '10.51'
+    Close: '10.55'
+    Volume: '160400'
+    Adj_Close: '10.50'
+  '2014-02-24':
+    Symbol: WSBF
+    Date: '2014-02-24'
+    Open: '10.58'
+    High: '10.61'
+    Low: '10.54'
+    Close: '10.59'
+    Volume: '297400'
+    Adj_Close: '10.54'
+  '2014-02-21':
+    Symbol: WSBF
+    Date: '2014-02-21'
+    Open: '10.65'
+    High: '10.65'
+    Low: '10.58'
+    Close: '10.58'
+    Volume: '197000'
+    Adj_Close: '10.53'
+  '2014-02-20':
+    Symbol: WSBF
+    Date: '2014-02-20'
+    Open: '10.65'
+    High: '10.66'
+    Low: '10.61'
+    Close: '10.63'
+    Volume: '204100'
+    Adj_Close: '10.58'
+  '2014-02-19':
+    Symbol: WSBF
+    Date: '2014-02-19'
+    Open: '10.65'
+    High: '10.67'
+    Low: '10.63'
+    Close: '10.63'
+    Volume: '278300'
+    Adj_Close: '10.58'
+  '2014-02-18':
+    Symbol: WSBF
+    Date: '2014-02-18'
+    Open: '10.55'
+    High: '10.68'
+    Low: '10.55'
+    Close: '10.67'
+    Volume: '444800'
+    Adj_Close: '10.62'
+  '2014-02-14':
+    Symbol: WSBF
+    Date: '2014-02-14'
+    Open: '10.54'
+    High: '10.61'
+    Low: '10.52'
+    Close: '10.60'
+    Volume: '357300'
+    Adj_Close: '10.55'
+  '2014-02-13':
+    Symbol: WSBF
+    Date: '2014-02-13'
+    Open: '10.46'
+    High: '10.60'
+    Low: '10.46'
+    Close: '10.60'
+    Volume: '893200'
+    Adj_Close: '10.55'
+  '2014-02-12':
+    Symbol: WSBF
+    Date: '2014-02-12'
+    Open: '10.50'
+    High: '10.54'
+    Low: '10.49'
+    Close: '10.52'
+    Volume: '296700'
+    Adj_Close: '10.47'
+  '2014-02-11':
+    Symbol: WSBF
+    Date: '2014-02-11'
+    Open: '10.51'
+    High: '10.54'
+    Low: '10.47'
+    Close: '10.53'
+    Volume: '276900'
+    Adj_Close: '10.48'
+  '2014-02-10':
+    Symbol: WSBF
+    Date: '2014-02-10'
+    Open: '10.48'
+    High: '10.54'
+    Low: '10.43'
+    Close: '10.52'
+    Volume: '238100'
+    Adj_Close: '10.47'
+  '2014-02-07':
+    Symbol: WSBF
+    Date: '2014-02-07'
+    Open: '10.44'
+    High: '10.50'
+    Low: '10.42'
+    Close: '10.47'
+    Volume: '261600'
+    Adj_Close: '10.42'
+  '2014-02-06':
+    Symbol: WSBF
+    Date: '2014-02-06'
+    Open: '10.44'
+    High: '10.47'
+    Low: '10.39'
+    Close: '10.45'
+    Volume: '238800'
+    Adj_Close: '10.40'
+  '2014-02-05':
+    Symbol: WSBF
+    Date: '2014-02-05'
+    Open: '10.36'
+    High: '10.50'
+    Low: '10.35'
+    Close: '10.45'
+    Volume: '287900'
+    Adj_Close: '10.40'
+  '2014-02-04':
+    Symbol: WSBF
+    Date: '2014-02-04'
+    Open: '10.47'
+    High: '10.50'
+    Low: '10.36'
+    Close: '10.40'
+    Volume: '350900'
+    Adj_Close: '10.35'
+  '2014-02-03':
+    Symbol: WSBF
+    Date: '2014-02-03'
+    Open: '10.57'
+    High: '10.60'
+    Low: '10.38'
+    Close: '10.44'
+    Volume: '529200'
+    Adj_Close: '10.39'
+  '2014-01-31':
+    Symbol: WSBF
+    Date: '2014-01-31'
+    Open: '10.48'
+    High: '10.59'
+    Low: '10.44'
+    Close: '10.56'
+    Volume: '394000'
+    Adj_Close: '10.51'
+  '2014-01-30':
+    Symbol: WSBF
+    Date: '2014-01-30'
+    Open: '10.45'
+    High: '10.60'
+    Low: '10.45'
+    Close: '10.58'
+    Volume: '749600'
+    Adj_Close: '10.53'
+  '2014-01-29':
+    Symbol: WSBF
+    Date: '2014-01-29'
+    Open: '10.42'
+    High: '10.50'
+    Low: '10.40'
+    Close: '10.45'
+    Volume: '422400'
+    Adj_Close: '10.40'
+  '2014-01-28':
+    Symbol: WSBF
+    Date: '2014-01-28'
+    Open: '10.35'
+    High: '10.54'
+    Low: '10.35'
+    Close: '10.50'
+    Volume: '986900'
+    Adj_Close: '10.45'
+  '2014-01-27':
+    Symbol: WSBF
+    Date: '2014-01-27'
+    Open: '10.50'
+    High: '10.51'
+    Low: '10.40'
+    Close: '10.42'
+    Volume: '801500'
+    Adj_Close: '10.37'
+  '2014-05-29':
+    Symbol: WSBF
+    Date: '2014-05-29'
+    Open: '10.69'
+    High: '10.82'
+    Low: '10.69'
+    Close: '10.80'
+    Volume: '184000'
+    Adj_Close: '10.80'
+  '2014-05-28':
+    Symbol: WSBF
+    Date: '2014-05-28'
+    Open: '10.82'
+    High: '10.82'
+    Low: '10.69'
+    Close: '10.71'
+    Volume: '86400'
+    Adj_Close: '10.71'
+  '2014-05-27':
+    Symbol: WSBF
+    Date: '2014-05-27'
+    Open: '10.82'
+    High: '10.89'
+    Low: '10.75'
+    Close: '10.79'
+    Volume: '250500'
+    Adj_Close: '10.79'
