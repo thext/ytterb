@@ -38,4 +38,4 @@ module Ytterb
   end
 
 end
-  
+

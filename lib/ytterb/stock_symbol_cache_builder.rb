@@ -8,7 +8,7 @@ require_relative 'yql_client'
 module Ytterb
 
   class StockSymbolCacheBuilder
-  
+
     def initialize
       @yql = YQLClient.new
       @sml = StockMarketLoader.new
@@ -16,21 +16,21 @@ module Ytterb
       build_local_symbol_files
       load_build_local_settings_file
       @local_settings ||= {}
-      
+
       # defaults to be used if not defined
       @local_settings[:sync_from] ||= (Date.today-365).to_s
       @local_settings[:sync_increment] ||= 120
       @local_settings[:api_calls_per_hour] ||= 1900
-      
+
       # build the queue used when syncing
       build_stock_sync_queue
-      
+
       # run the processor that fetches and persists stock info
       stock_processor_run
-      
+
       save_local_settings_file
     end
-    
+
     def build_local_symbol_files
       @symbol_mappings = {}
       cache_path = File.join(@local_path, "cached_symbol_data")
@@ -47,14 +47,14 @@ module Ytterb
         @symbol_mappings[current_symbol] = destination_storage_file
       end
     end
-    
+
     def build_stock_sync_queue
       @stock_sync_queue = Queue.new
       @sml.stock_symbols.shuffle.each do |stock|
         @stock_sync_queue << stock.symbol
       end
     end
-    
+
     def stock_processor_run
       while true
         begin
@@ -90,14 +90,14 @@ module Ytterb
         end
       end
     end
-    
+
     def load_build_local_settings_file
       local_settings_file = File.join(@local_path, "local_settings", "settings.yaml")
       @local_settings = DataPersistHelper.load(local_settings_file)
     rescue StandardError => e
       puts "failed to load local settings file: #{e.message}"
     end
-    
+
     def save_local_settings_file
       local_settings_file = File.join(@local_path, "local_settings", "settings.yaml")
       DataPersistHelper.save(local_settings_file, @local_settings)

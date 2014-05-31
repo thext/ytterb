@@ -34,6 +34,6 @@ module Ytterb
       requested_start = requested_end - 30 unless requested_start
       run_select_query("select * from yahoo.finance.historicaldata where symbol in (\"#{my_symbol}\") and startDate='#{requested_start}' and endDate='#{requested_end}'")["query"]["results"]
     end
-    
+
   end
 end
