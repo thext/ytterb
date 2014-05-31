@@ -1,20 +1,11 @@
 require 'fileutils'
 require 'thread'
-require 'yaml'
 require 'date'
-require_relative 'stock_symbol_loader'
+require_relative 'data_persist_helper'
+require_relative 'stock_market_loader'
 require_relative 'yql_client'
 
 module Ytterb
-  class DataPersistHelper
-    def self.save(file, value)
-      File.open(file,"w") {|f| f.write(YAML.dump(value)) }
-    end
-    
-    def self.load(file)
-      File.open(file,"r") {|f| YAML.load(f.read()) }
-    end
-  end
 
   class StockSymbolCacheBuilder
   
@@ -46,7 +37,7 @@ module Ytterb
       @sml.stock_symbols.each do |stock|
         current_symbol = stock.symbol
         split_for_storage = current_symbol.split('')
-        split_for_storage[-1]+='.yaml'
+        split_for_storage[-1] += DataPersistHelper.get_extension()
         destination_storage_file = File.join(cache_path,split_for_storage)
         FileUtils.mkdir_p(File.dirname(destination_storage_file))
         unless File.file?(destination_storage_file)
