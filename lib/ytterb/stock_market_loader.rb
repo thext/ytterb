@@ -1,3 +1,4 @@
+require_relative 'settings'
 require_relative 'stock_symbol_loader'
 
 module Ytterb
@@ -5,7 +6,7 @@ module Ytterb
   class StockMarketLoader
     def initialize
       @stock_symbols = []
-      path = File.join(File.expand_path(File.dirname(__FILE__)),"raw_symbol_data")
+      path = Settings.new.get_raw_symbol_data_dir
       Dir.entries(path).select {|f| !File.directory?(f) and /companylist_[a-zA-Z]+\.csv/ =~ f }.each do |file_to_process|
         market = /companylist_(?<market>[a-zA-Z]+)\.csv/.match(file_to_process)[:market]
         StockSymbolLoader.new(File.join(path,file_to_process),market).parse do |stock_symbol|

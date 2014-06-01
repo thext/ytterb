@@ -48,13 +48,23 @@ module Ytterb
             date_end = date_start + @local_settings[:sync_increment]
             date_end = Date.today if date_end > Date.today
             result = @yql.get_symbol_historical(curr,date_start.to_s, date_end.to_s)
-            curr_stock_info[:sync_to] = date_end.to_s
-            if result and result.has_key?("quote")
+            max_end_date = Date.parse(curr_stock_info[:sync_to])
+            symbol_updated = false
+            if result and result.has_key?("quote") and result["quote"].kind_of?(Array)
+              # TODO: need to pull all this logic into the yql client
+              # TODO: this needs some tests!
               result["quote"].each do |item|
-                curr_stock_info[:data]||={}
-                curr_stock_info[:data][item["Date"]] = item
+                if item["Date"]
+                  curr_stock_info[:data]||={}
+                  curr_stock_info[:data][item["Date"]] = item
+                  if Date.parse(item["Date"]) > max_end_date
+                    max_end_date = Date.parse(item["Date"])
+                    curr_stock_info[:sync_to] = max_end_date.to_s
+                    symbol_updated = true
+                  end
+                end
               end
-              @stock_sync_queue << curr
+              @stock_sync_queue << curr if symbol_updated
               puts curr_stock_info[:sync_to]
               DataPersistHelper.save(curr_file,curr_stock_info)
             else

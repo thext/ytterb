@@ -6,7 +6,8 @@ module Ytterb
       @options = {
         :settings_dir => "local_settings",
         :settings_file => File.join("settings",DataPersistHelper.get_extension()),
-        :cached_symbol_data_dir => "cached_symbol_data"
+        :cached_symbol_data_dir => "cached_symbol_data",
+        :raw_symbol_data_dir => "raw_symbol_data"
       }.freeze
       @local_path = File.expand_path(File.dirname(__FILE__))
       load
@@ -39,6 +40,10 @@ module Ytterb
       full_path
     end
     
+    def get_raw_symbol_data_dir
+      File.join(@local_path,@options[:raw_symbol_data_dir])
+    end
+    
     def [](key)
       @local_settings[key]
     end
@@ -56,7 +61,7 @@ module Ytterb
 
     def save
       create_full_path_and_file(full_path_settings_file())
-      DataPersistHelper.load(full_path_settings_file(), @local_settings)
+      DataPersistHelper.save(full_path_settings_file(), @local_settings)
     end
   end
 end
