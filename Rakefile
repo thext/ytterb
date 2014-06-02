@@ -37,5 +37,5 @@ task :default => :spec
 
 task :build_stock_cache do 
   require_relative 'lib/ytterb'
-  Ytterb::StockSymbolCacheBuilder.new
+  Ytterb::StockSymbol::CacheBuilder.new
 end

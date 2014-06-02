@@ -32,4 +32,4 @@ Gemfile.lock
 html/
 pkg/
 vendor/cache/*.gem
-lib/ytterb/cache/cached_symbol_data/**/*.yaml
+lib/ytterb/.cache/cached_symbol_data/**/*.yaml
