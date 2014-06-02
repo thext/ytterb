@@ -3,13 +3,20 @@ require_relative 'data_persist_helper'
 module Ytterb
   class Settings
     def initialize
+      @cache_dir = "cache"
       @options = {
-        :settings_dir => "local_settings",
         :settings_file => File.join("settings",DataPersistHelper.get_extension()),
-        :cached_symbol_data_dir => "cached_symbol_data",
-        :raw_symbol_data_dir => "raw_symbol_data"
+        :settings_data_dir => [@cache_dir, "local_settings"],
+        :cached_symbol_data_dir => [@cache_dir, "cached_symbol_data"],
+        :raw_symbol_list_data_dir => [@cache_dir, "raw_symbol_data"]
       }.freeze
       @local_path = File.expand_path(File.dirname(__FILE__))
+      # create the cache dirs if they don's exist
+      @options.each do |option, value|
+        options_s = option.to_s
+        next unless options_s.end_with?("data_dir")
+        FileUtils.mkdir_p(File.join(@local_path, @options[option]))
+      end
       load
     end
     
@@ -29,7 +36,7 @@ module Ytterb
     end
     
     def full_path_settings_file
-      File.join(@local_path,@options[:settings_dir],@options[:settings_file])
+      File.join(@local_path,@options[:settings_data_dir],@options[:settings_file])
     end
     
     def get_symbol_store_file(symbol, build_path_and_file = true)
@@ -40,8 +47,8 @@ module Ytterb
       full_path
     end
     
-    def get_raw_symbol_data_dir
-      File.join(@local_path,@options[:raw_symbol_data_dir])
+    def get_raw_symbol_list_data_dir
+      File.join(@local_path,@options[:raw_symbol_list_data_dir])
     end
     
     def [](key)
