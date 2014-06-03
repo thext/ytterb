@@ -43,6 +43,8 @@ module Ytterb
             if curr_done > prev_done
               puts "#{curr_done} %"
               prev_done = curr_done
+            else
+              print "#{curr.symbol}."
             end
           rescue StandardError => e
             puts "#{e.message} : #{e.backtrace.join("|")}"
