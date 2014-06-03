@@ -38,9 +38,6 @@ module Ytterb
         else
           raise InvalidYqlResponse, "response/query/results/quote needs to be an Array or a Hash. Found a #{@response["query"]["results"]["quote"].class}"
         end
-        @response_lines.each do |line|
-          puts "  #{line}"
-        end
       end
       
       def lines

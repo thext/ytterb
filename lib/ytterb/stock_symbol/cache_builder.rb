@@ -30,11 +30,23 @@ module Ytterb
       end
 
       def stock_processor_run
+        initial_queue_size = @stock_sync_queue.length
+        prev_done = 0
+        puts "Initial queue size is #{initial_queue_size}"
         while true
-          curr = @stock_sync_queue.pop(true) rescue nil
-          break unless curr # queue is empty
-          puts "Processing Symbol: #{curr}"
-          curr.fetch_history
+          begin
+            curr = @stock_sync_queue.pop(true) rescue nil
+            break unless curr # queue is empty
+            sleep(3600.0/@local_settings[:api_calls_per_hour])
+            curr.fetch_history
+            curr_done = (initial_queue_size - @stock_sync_queue.length) * 100 / initial_queue_size
+            if curr_done > prev_done
+              puts "#{curr_done} %"
+              prev_done = curr_done
+            end
+          rescue StandardError => e
+            puts "#{e.message} : #{e.backtrace.join("|")}"
+          end
         end
       end
 

@@ -65,11 +65,9 @@ module Ytterb
         @history||={}
         @history["items"]||={}
         start_date = @history[:max_sync_date] if @history and @history[:max_sync_date]
+        @history[:max_sync_date] = Date.parse(Time.at(0).to_s).to_s
+        
         self.class.get_yql_client.get_symbol_historical(@options[:symbol], start_date, end_date).each do |line|
-          puts line.inspect
-          puts line.class
-          puts line["Date"].class
-          puts line["Date"].inspect
           @history["items"][line["Date"]] = line
           @history[:max_sync_date] = line["Date"] if Date.parse(line["Date"]) > Date.parse(@history[:max_sync_date])
         end
