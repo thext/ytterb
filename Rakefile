@@ -39,3 +39,8 @@ task :build_stock_cache do
   require_relative 'lib/ytterb'
   Ytterb::StockSymbol::CacheBuilder.new
 end
+
+task :generate_freshness_report do
+  require_relative 'lib/ytterb'
+  raise "not implemented yet"
+end

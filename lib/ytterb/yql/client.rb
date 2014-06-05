@@ -18,7 +18,9 @@ module Ytterb
 
       def run_select_query(query)
         RestClient.get("#{get_yql_endpoint}?q=#{CGI::escape(query)}&format=json&env=store://datatables.org/alltableswithkeys") do |response, request, result|
-          raise ClientYqlError, "Failed performing YQLQuery\n Request: #{request.inspect}\n Response #{response.inspect}" unless response.code == 200
+          raise ClientYqlError, "Failed performing YQLQuery\n" << 
+                                    "Request: #{request.inspect}\n" <<
+                                    "Response #{response.inspect}" unless response.code == 200
           return Response.new(response).lines
         end
       end
@@ -29,7 +31,10 @@ module Ytterb
 
         requested_start = Date.parse(start_date) if start_date
         requested_start = requested_end - 30 unless requested_start
-        run_select_query("select * from yahoo.finance.historicaldata where symbol in (\"#{my_symbol}\") and startDate='#{requested_start}' and endDate='#{requested_end}'")
+        run_select_query("select * from yahoo.finance.historicaldata" <<
+                          " where symbol in (\"#{my_symbol}\")" <<
+                          " and startDate='#{requested_start}'" <<
+                          " and endDate='#{requested_end}'")
       end
 
     end
