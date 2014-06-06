@@ -35,12 +35,14 @@ RSpec::Core::RakeTask.new
 task :test    => :spec
 task :default => :spec
 
+desc "builds the stock cache"
 task :build_stock_cache do 
   require_relative 'lib/ytterb'
   Ytterb::StockSymbol::CacheBuilder.new
 end
 
+desc "generate stock data freshness report"
 task :generate_freshness_report do
   require_relative 'lib/ytterb'
-  raise "not implemented yet"
+  raise "ERROR: freshness report not implemented yet"
 end
