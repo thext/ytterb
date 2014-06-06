@@ -44,5 +44,5 @@ end
 desc "generate stock data freshness report"
 task :generate_freshness_report do
   require_relative 'lib/ytterb'
-  raise "ERROR: freshness report not implemented yet"
+  Ytterb::StockSymbol::Report.new(:type => :freshness).generate
 end

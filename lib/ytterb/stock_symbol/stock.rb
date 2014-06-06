@@ -46,7 +46,7 @@ module Ytterb
       
       def load
         symbol_history_file = self.class.get_settings.get_symbol_store_file(self.symbol)
-        @history = Util::DataPersistHelper.load(curr_file) rescue nil
+        @history = Util::DataPersistHelper.load(symbol_history_file) rescue nil
       end
       
       def save
@@ -61,18 +61,22 @@ module Ytterb
       end
       
       def fetch_history(start_date = nil, end_date = nil)
-        start_date ||= self.class.get_settings[:sync_from]
         @history||={}
-        @history["items"]||={}
-        start_date = @history[:max_sync_date] if @history and @history[:max_sync_date]
-        @history[:max_sync_date] = Date.parse(Time.at(0).to_s).to_s
-        
+        start_date = @history.keys.collect {|x| Date.parse(x)}.sort.last
+        start_date = start_date.to_s if start_date
+        start_date ||= self.class.get_settings[:sync_from]
+    
         self.class.get_yql_client.get_symbol_historical(@options[:symbol], start_date, end_date).each do |line|
-          @history["items"][line["Date"]] = line
-          @history[:max_sync_date] = line["Date"] if Date.parse(line["Date"]) > Date.parse(@history[:max_sync_date])
+          @history[line["Date"]] = line
         end
         save
       end
+      
+      def history
+        return {} unless @history
+        @history
+      end
+      
     end
   end
 end # Ytterb

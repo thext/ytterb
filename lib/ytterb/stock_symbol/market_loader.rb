@@ -4,15 +4,22 @@ require_relative 'stock'
 module Ytterb
   module StockSymbol
     class MarketLoader
-      def initialize
+      def initialize(options={})
         @stock_symbols = []
         path = Util::Settings.new.get_raw_symbol_list_data_dir
+        i=1
         Dir.entries(path).select {|f| !File.directory?(f) and /companylist_[a-zA-Z]+\.csv/ =~ f }.each do |file_to_process|
           market = /companylist_(?<market>[a-zA-Z]+)\.csv/.match(file_to_process)[:market]
           Stock.builder_from_csv(File.join(path,file_to_process),market) do |stock_symbol|
+            if options[:with_feedback]
+              print "."
+              print "#{i}\n" if (i%80==0)
+              i+=1
+            end
             @stock_symbols << stock_symbol
           end
         end
+        print "\n" if options[:with_feedback]
       end
 
       def industries
