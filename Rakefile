@@ -46,3 +46,12 @@ task :generate_freshness_report do
   require_relative 'lib/ytterb'
   Ytterb::StockSymbol::Report.new(:type => :freshness).generate
 end
+
+desc "message pack test"
+task :msg_pack_test do 
+  require 'msgpack'
+  msg = [1,2,3].to_msgpack  #=> "\x93\x01\x02\x03"
+  puts msg.inspect
+  demsg = MessagePack.unpack(msg)   #=> [1,2,3]
+  puts demsg.inspect
+end
