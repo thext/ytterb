@@ -46,7 +46,7 @@ module Ytterb
       
       def load
         symbol_history_file = self.class.get_settings.get_symbol_store_file(self.symbol)
-        @history = Util::DataPersistHelper.load(symbol_history_file) rescue nil
+        @history = Util::DataPersistHelper.load(symbol_history_file).select{|k,v| k} rescue nil
       end
       
       def save
@@ -62,12 +62,12 @@ module Ytterb
       
       def fetch_history(start_date = nil, end_date = nil)
         @history||={}
-        start_date = @history.keys.collect {|x| Date.parse(x)}.sort.last
+        start_date = @history.select{|k,v| k}.keys.collect{|x| Date.parse(x)}.sort.last
         start_date = start_date.to_s if start_date
         start_date ||= self.class.get_settings[:sync_from]
     
         self.class.get_yql_client.get_symbol_historical(@options[:symbol], start_date, end_date).each do |line|
-          @history[line["Date"]] = line
+          @history[line["Date"]] = line if line["Date"]
         end
         save
       end

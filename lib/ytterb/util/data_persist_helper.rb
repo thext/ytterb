@@ -8,7 +8,7 @@ module Ytterb
       end
 
       def self.load(file)
-        File.open(file,"r") {|f| MessageUnpack.unpack(f.read()) }
+        File.open(file,"r") {|f| MessagePack.unpack(f.read()) }
       end
 
       def self.get_extension
